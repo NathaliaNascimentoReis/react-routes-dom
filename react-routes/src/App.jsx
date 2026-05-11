@@ -14,7 +14,7 @@ function App() {
         <>
             <BrowserRouter>
                 <NavBar></NavBar>
-                <main style={{ padding: '20px' }}>
+                <main style={{ padding: '20px', minHeight: '80vh' }}>
                     <Routes>
                         <Route path="/" element={<Home></Home>}></Route>
                         <Route path="/sobre" element={<Sobre></Sobre>}></Route>
